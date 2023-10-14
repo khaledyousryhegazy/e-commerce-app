@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce App</title>
+    <!-- Website Icon -->
+    <link rel="website icon" type="png" href="./fav-icon.png" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Css Files -->
+    <link rel="stylesheet" href="./assest/css/all.min.css" />
+    <link rel="stylesheet" href="./assest/css/main.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./assest/img/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="nav">
+          <a href="./user.html" class="user">
+            <i class="fa-regular fa-user"></i>
+          </a>
+
+          <div class="liked">
+            <i class="fa-regular fa-heart"></i>
+            <span>0</span>
+            <div class="liked-pro"></div>
+          </div>
+
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="count">0</span>
+            <div class="cart-pro">
+              <span>My Cart</span>
+              <div class="inner"></div>
+              <div class="foot">
+                <span>Total</span>
+                <span id="total">0.00 $</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="links">
+          <i id="menuIcon" class="fa-solid fa-bars"></i>
+
+          <ul id="menu">
+            <li><a href="./shop.html">Shop Now</a></li>
+            <li><a href="./men.html">Men's Fashion</a></li>
+            <li><a href="./women.html">Women's Fashion</a></li>
+            <li><a href="./electronic.html">Electronics</a></li>
+            <li><a href="./about.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start User -->
+    <section class="user-page">
+      <div class="container">
+        <div class="user-box">
+          <h1>Sign In</h1>
+          <div class="up">
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="Enter Your Email"
+            />
+            <input
+              type="password"
+              id="pass"
+              required
+              placeholder="Enter Your Password"
+            />
+            <button class="button-google">Sign In</button>
+          </div>
+          <div class="down">
+            <button class="button-google">Create New Account</button>
+
+            <button class="button-google">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMidYMid"
+                viewBox="0 0 256 262"
+              >
+                <path
+                  fill="#4285F4"
+                  d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"
+                ></path>
+                <path
+                  fill="#34A853"
+                  d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"
+                ></path>
+                <path
+                  fill="#FBBC05"
+                  d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782"
+                ></path>
+                <path
+                  fill="#EB4335"
+                  d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"
+                ></path>
+              </svg>
+              Continue with Google
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End User -->
+
+    <!-- Start Footer -->
+    <footer>
+      <!-- Up Footer -->
+      <div class="up">
+        <!-- One -->
+        <div>
+          <i class="fa-solid fa-truck-fast"></i>
+          <div class="info">
+            <h4>Free Delivery</h4>
+            <p>Free in Cairo & Giza</p>
+          </div>
+        </div>
+        <!-- two -->
+        <div>
+          <i class="fa-solid fa-credit-card"></i>
+          <div class="info">
+            <h4>Safe Payment</h4>
+            <p>100% secure payment</p>
+          </div>
+        </div>
+        <!-- three -->
+        <div>
+          <i class="fa-solid fa-comments"></i>
+          <div class="info">
+            <h4>Help Center</h4>
+            <p>Dedicated 24/6 support</p>
+          </div>
+        </div>
+        <!-- four -->
+        <div>
+          <i class="fa-solid fa-hand-holding"></i>
+          <div class="info">
+            <h4>Shop With Confidence</h4>
+            <p>If goods have problems</p>
+          </div>
+        </div>
+      </div>
+      <!-- Down Footer -->
+      <div class="down">
+        <!-- Line One -->
+        <div class="line">
+          <h4>About Us</h4>
+          <p>
+            Exp is a company specialized in selling electronics accessories with
+            scrutiny in providing only high quality products and a real
+            guarantee.
+          </p>
+          <p>Phone: 01151747091</p>
+        </div>
+        <!-- Line two -->
+        <div class="line">
+          <h4>Collections</h4>
+          <ul>
+            <li>Collection</li>
+            <li>Computer</li>
+            <li>Smart Phone</li>
+            <li>Accessories</li>
+            <li>Wearables</li>
+          </ul>
+        </div>
+        <!-- Line three -->
+        <div class="line">
+          <h4>Quick Links</h4>
+          <ul>
+            <li>About Us</li>
+            <li>Contact US</li>
+            <li>My Account</li>
+            <li>FAQs</li>
+          </ul>
+        </div>
+        <!-- Line four -->
+        <div class="line">
+          <i class="fa-brands fa-square-github"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+        </div>
+      </div>
+      <!-- Copy Right -->
+      <div class="copy-right">
+        <div>
+          Copyright &copy; <span> Khalid Yousry</span>. all rights reserved.
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Javascript File -->
+    <script src="./assest/js/app.js"></script>
+  </body>
+</html>
